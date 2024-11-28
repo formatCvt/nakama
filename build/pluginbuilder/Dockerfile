@@ -12,7 +12,7 @@
 ## See the License for the specific language governing permissions and
 ## limitations under the License.
 
-# docker build . --file ./Dockerfile --build-arg version=v2.1.1 -t heroiclabs/nakama-pluginbuilder:2.1.1
+# docker build . --file ./Dockerfile --build-arg version=v3.22.0 -t ghcr.io/formatcvt/nakama-pluginbuilder:3.22.0
 # docker build . --file ./Dockerfile --build-arg version="v2.1.1-$(git rev-parse --short HEAD)" -t heroiclabs/nakama-pluginbuilder:"2.1.1-$(git rev-parse --short HEAD)"
 
 FROM golang:1.22.4-bookworm as builder
